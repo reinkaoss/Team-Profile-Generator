@@ -1,5 +1,3 @@
-// TODO: Write code to define and export the Employee class
-
 // Building the main constructor
 class Employee {
     constructor(name, id, email) {
@@ -25,13 +23,21 @@ class Employee {
 
     getRole() {
         console.log(Employee);
-        return Employee
+        return this.constructor.name;
     }
+
 }
 
-const testEmployee = new Employee("Victor", 2, "victor@gmail.com")
+function generateEmployee(data) {
+    return 
+    console.log(data.name);
 
-testEmployee.getName();
-testEmployee.getId();
-testEmployee.getEmail();
-testEmployee.getRole();
+}
+
+// generateEmployee();
+// testEmployee.getName();
+// testEmployee.getId();
+// testEmployee.getEmail();
+// testEmployee.getRole();
+
+module.exports = Employee;
