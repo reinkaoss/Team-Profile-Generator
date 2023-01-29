@@ -8,21 +8,13 @@ class Engineer extends Employee {
         this.github = github;
     }
 
-    // class Intern extends Employee  {
-    //     constructor (name, id, email, school) {
-    //         // calling employee constructor
-    //         super (name, id, email); 
-    
-    //         this.school = school; 
-
-
-
-
     getGithub() {
-        return github;
+        return this.github;
     }
 
     getRole() {
-        return Engineer;
+        return "Engineer";
     }
 }
+
+module.exports = Engineer; 

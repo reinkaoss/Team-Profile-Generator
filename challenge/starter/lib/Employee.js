@@ -34,10 +34,4 @@ function generateEmployee(data) {
 
 }
 
-// generateEmployee();
-// testEmployee.getName();
-// testEmployee.getId();
-// testEmployee.getEmail();
-// testEmployee.getRole();
-
 module.exports = Employee;
