@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: content-box;
+}
+
+body {
+    background: aliceblue
+}
+
+/* Header */
+.newTeam-heading {
+    background-image: linear-gradient(45deg, black, transparent);
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+/* Card styling */
+.card-header {
+    background-image: linear-gradient(10deg, black, transparent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body {
+    background-image: linear-gradient(45deg, #3e1e1e, transparent);
+}

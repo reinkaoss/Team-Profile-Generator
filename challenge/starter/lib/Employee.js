@@ -1,37 +1,26 @@
 // Building the main constructor
 class Employee {
-    constructor(name, id, email) {
-        this.name = name;
-        this.id = id;
-        this.email = email;
-    }
+  constructor(name, id, email) {
+    this.name = name;
+    this.id = id;
+    this.email = email;
+  }
 
-    getName() {
-        console.log(this.name);
-        return this.name;
-    }
+  getName() {
+    return this.name;
+  }
 
-    getId() {
-        console.log(this.id);
-        return this.id;
-    }
+  getId() {
+    return this.id;
+  }
 
-    getEmail() {
-        console.log(this.email);
-         return this.email;
-    }
+  getEmail() {
+    return this.email;
+  }
 
-    getRole() {
-        console.log(Employee);
-        return this.constructor.name;
-    }
-
-}
-
-function generateEmployee(data) {
-    return 
-    console.log(data.name);
-
+  getRole() {
+    return this.constructor.name;
+  }
 }
 
 module.exports = Employee;
