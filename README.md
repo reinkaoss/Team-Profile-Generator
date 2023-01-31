@@ -36,6 +36,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Tests
 ![Passed tests with Jest](/challenge/assets/tests.png)
+![Working App](/challenge/assets/Kapture%202023-01-31%20at%2017.56.47.gif)
 
 ## Built With
 * Node.js

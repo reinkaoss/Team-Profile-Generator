@@ -17,6 +17,7 @@ const generateManager = () => {
     .prompt([
       {
         type: "input",
+        // Left this in blank as it was being hidden by the generateManager function
         message: "",
         name: "managerName",
       },
